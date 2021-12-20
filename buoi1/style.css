@@ -1,0 +1,55 @@
+.header {
+  background-color: gray;
+  width: 600px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  color: white;
+  font-size: 2rem;
+}
+.main {
+  /* background-color: gold; */
+  height: 400px;
+  width: 600px;
+  display: flex;
+}
+.content-left {
+  background-color: rgb(158, 234, 240);
+  width: 30%;
+  height: 400px;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding-top: 25px;
+}
+.content-right {
+  background-color: violet;
+  width: 70%;
+  height: 400px;
+}
+.footer {
+  background-color: grey;
+  width: 600px;
+  height: 100px;
+}
+.information {
+  margin: 26px;
+}
+.footer {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.under {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+* {
+  font-family: 'Love Light', cursive;
+  font-family: 'Open Sans', sans-serif;
+}
