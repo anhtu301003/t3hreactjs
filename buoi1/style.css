@@ -2,13 +2,15 @@
   background-image: url("../img/1.jpg");
   width: 600px;
   height: 100px;
-  display: flex;
+  /* display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
 }
 .title {
   color: white;
   font-size: 2rem;
+  position: absolute;
+  left: 18%;
 }
 .main {
   /* background-color: gold; */
