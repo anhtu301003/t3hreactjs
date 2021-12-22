@@ -1,5 +1,5 @@
 .header {
-  background-color: gray;
+  background-image: url("../img/1.jpg");
   width: 600px;
   height: 100px;
   display: flex;
@@ -50,6 +50,7 @@ ul {
   font-weight: bold;
 }
 * {
-  font-family: 'Love Light', cursive;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Love Light", cursive;
+  font-family: "Pushster", cursive;
 }
+
