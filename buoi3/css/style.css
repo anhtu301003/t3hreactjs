@@ -1,0 +1,125 @@
+* {
+  font-family: "Love Light", cursive;
+  font-family: "Pushster", cursive;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+.father {
+  max-width: 650px;
+  margin: 0 auto;
+}
+.header {
+  width: 100%;
+  height: 200px;
+}
+.header-banner {
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(
+      to right bottom,
+      rgb(255 27 27 / 86%),
+      rgb(247 166 247 / 80%)
+    ),
+    url("../img/banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: snow;
+}
+.content {
+  display: flex;
+  width: 100%;
+  height: 375px;
+}
+.left-content {
+  background-color: wheat;
+  width: 31%;
+  height: 100%;
+}
+.right-content {
+  background-color: cornflowerblue;
+  width: 69%;
+  height: 100%;
+  /* overflow: hidden; */
+}
+.footer {
+  background-color: darkgrey;
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: snow;
+}
+.text {
+  padding: 5%;
+}
+.text-main {
+  margin-bottom: 10px;
+  font-size: 2rem;
+}
+p{
+  margin-bottom: 5%;
+}
+ul{
+
+    list-style: none;
+    padding: 10%;
+}
+a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  transition: color 0.3s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+a:hover {
+  color: snow;
+}
+/* reponsive */
+@media screen and (max-width: 415px) {
+   *{
+     max-width: 414px;
+   }
+   .content{
+     display: inline-block;
+   }
+   .left-content{
+     width: 100%;
+     height: 7%;
+    }
+    .list-main{
+      margin: auto;
+    }
+    .list {
+      justify-content: space-around;
+      padding: 0;
+      align-items: center;
+      display: flex;
+    }
+    li{
+      margin: auto;
+    }
+   .right-content{
+     width: 100%;
+     height: 100%;
+   } 
+}
+@media screen and (max-width: 769px){
+  .father{
+    max-width: 768px;
+  }
+}
+@media screen and (max-width: 1025px){
+  .father{
+    max-width: 1024px;
+  }
+}
